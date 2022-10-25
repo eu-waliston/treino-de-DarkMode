@@ -1,7 +1,16 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+
+.is-dark {
+  background-color: #000;
+  color: #fff;
+}
+
 #toBlack{
   margin-left: 10px;
+  margin-right: 10px;
+}
+#toWhite {
   margin-right: 10px;
 }
 
