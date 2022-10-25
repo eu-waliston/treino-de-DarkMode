@@ -16,7 +16,10 @@
       href="https://getbootstrap.com/docs/5.2/examples/blog/"
     />
 
-    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <style>
       .bd-placeholder-img {
@@ -111,12 +114,16 @@
               </svg>
             </a>
             <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
-            <a class="btn btn-sm btn-outline-secondary" href="#" id="switch">Switch Theme</a>
+
+            <!--Switch Mode-->
+            <a class="btn btn-sm btn-outline-secondary" id="toBlack">Dark</a>
+            <a class="btn btn-sm btn-outline-secondary" id="toWhite">Light</a>
+ 
           </div>
         </div>
       </header>
 
-      <div class="nav-scroller py-1 mb-2">
+      <div class="nav-scroller py-1 mb-2" id="navi">
         <nav class="nav d-flex justify-content-between">
           <a class="p-2 link-secondary" href="#">World</a>
           <a class="p-2 link-secondary" href="#">U.S.</a>
