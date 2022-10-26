@@ -16,6 +16,7 @@ function tw(){
 
 function tt(){
     document.body.classList.toggle('is-dark');
+    document.body.classList.toggle('p-2');
 }
 
 toBlack.addEventListener("click", tb)

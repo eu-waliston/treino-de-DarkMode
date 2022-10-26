@@ -6,6 +6,10 @@
   color: #fff;
 }
 
+.p-2 {
+  color: #fff !important;
+}
+
 #toBlack{
   margin-left: 10px;
   margin-right: 10px;
